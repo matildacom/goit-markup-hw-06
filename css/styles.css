@@ -569,7 +569,7 @@ margin-bottom: 0;
     margin-left: 109px;
         justify-content: center;
         display: inline-block;
-        align-items: baseline;
+        
 }
 
 .submit-title{
@@ -581,11 +581,13 @@ margin-bottom: 0;
 }
 .footer-form{
     margin-top: 20px;
-    
+    display: flex;
 }
 .email{
     width: 358px;
     height: 50px;
+    padding-left: 16px;
+    
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: var(--additional-color);
 }
@@ -593,6 +595,17 @@ margin-bottom: 0;
     width: 200px;
     height: 50px;
     margin-left: 12px;
+    padding-bottom: 10px;
+    
+    background-color: var(--accent);
+    color: var(--text-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.send-icon{
+    fill: var(--secondary-background-color);
+    margin-left: 10px;
 }
 /*portfolio*/
 .portfolio{

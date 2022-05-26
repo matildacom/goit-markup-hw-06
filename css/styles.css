@@ -564,7 +564,7 @@ margin-bottom: 0;
     background-color: var(--accent);
 }
 
-submit{
+.submit{
     margin-top: 0;
     margin-left: 109px;
         justify-content: center;
@@ -572,13 +572,27 @@ submit{
         align-items: baseline;
 }
 
-submit-title{
+.submit-title{
     color: var(--text-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+}
+.footer-form{
+    margin-top: 20px;
+    
+}
+.email{
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: var(--additional-color);
+}
+.submit-button{
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
 }
 /*portfolio*/
 .portfolio{

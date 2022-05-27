@@ -255,8 +255,49 @@ margin-right: 10px;
     height: 30px;
     border-radius: 100%;
     border-color: rgba(0, 0, 0, 0.1);
+}
+.form-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(33, 33, 33, 1);
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+.modal-form{
+    padding: 40px;
+    text-align: center;
+}
+
+.modal-field{
+    position:relative;
+    width: 100%;
+    height: 40px;
+}
+.form-icon{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+.modal-label{
+    display: block;
+    margin-top:10px; 
     
 }
+.text-label{
+    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgba(117, 117, 117, 1);
+}
+.modal-input{
+    width: 100%;
+    height: 40px;
+}
+
 
 
 /*features*/

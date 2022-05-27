@@ -278,12 +278,13 @@ margin-right: 10px;
 }
 .form-icon{
     position: absolute;
-    top: 60%;
-    left: 30%;
+    top: 75%;
+    left: 15px;
 }
 .modal-label{
     display: block;
-    margin-top:10px; 
+    margin-top:10px;
+    margin-bottom: 4px; 
     
 }
 .text-label{

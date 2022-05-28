@@ -481,7 +481,7 @@ background-color: var(--secondary-accent);
     color: var(--text-color);
     background-color: rgba(47, 48, 58, 0.8);
 }
-
+.hero-title
 /*team*/
 .section-title{
     margin-bottom: 50px;

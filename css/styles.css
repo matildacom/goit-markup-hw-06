@@ -255,6 +255,7 @@ margin-right: 10px;
     height: 30px;
     border-radius: 100%;
     border-color: rgba(0, 0, 0, 0.1);
+    
 }
 .modal-button:hover{
     fill: var(--accent);

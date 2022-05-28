@@ -256,6 +256,12 @@ margin-right: 10px;
     border-radius: 100%;
     border-color: rgba(0, 0, 0, 0.1);
 }
+.modal-button:hover{
+    fill: var(--accent);
+}
+.modal-button:focus{
+    fill: var(--accent);
+}
 .form-title{
     font-size: 20px;
     font-weight: 700;
@@ -346,6 +352,7 @@ margin-right: 10px;
     padding-right: 55px;
     padding-top:10px ;
     padding-bottom:10px ;
+   
     background-color: var(--accent);
     color: var(--text-color);
     font-size: 16px;

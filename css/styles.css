@@ -3,6 +3,7 @@
     --secondary-text-color: #757575;
     --text-color: #FFFFFF;
     --accent: #2196F3;
+    --secondary-accent: #188CE8;
     --main-background-color:#F5F4FA;
     --secondary-background-color:#FFFFFF;
     --additional-color:#2F303A;
@@ -258,6 +259,7 @@ margin-right: 10px;
     transition-property: fill;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);
+    cursor: pointer;
 }
 .modal-button:hover{
     fill: var(--accent);
@@ -292,6 +294,9 @@ margin-right: 10px;
     top: 55%;
     left: 15px;
     fill: rgba(33, 33, 33, 1);
+    transition-property: fill;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
 }
 .modal-label{
     display: block;
@@ -312,6 +317,9 @@ margin-right: 10px;
     border-radius: 3%;
     outline: transparent;
     border:solid 1px rgba(33, 33, 33, 0.2);
+    transition-property: border-color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
 }
 .modal-input:hover{
     border-color: var(--accent);
@@ -374,12 +382,18 @@ margin-right: 10px;
     padding-top:10px ;
     padding-bottom:10px ;
    
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: var(--accent);
     color: var(--text-color);
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
-    border: none;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-button:hover {
+background-color: var(--secondary-accent);
 }
 /*features*/
 .list-features {

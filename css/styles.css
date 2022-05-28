@@ -313,7 +313,12 @@ margin-right: 10px;
     fill: var(--accent);
 }
 .modal-area{
-width: 100%;
+    width: 100%;
+    height: 120px;
+    resize: none;
+    border-radius: 3%;
+    outline: transparent;
+    border: solid 1px rgba(33, 33, 33, 0.2);
 }
 .form-text{
     margin-left: 8.38px;
@@ -328,7 +333,9 @@ width: 100%;
  margin-left: auto;
  margin-right: auto;
 }
-
+.form-link{
+    color: var(--accent);
+}
 /*features*/
 .list-features {
     font-size: 14px;

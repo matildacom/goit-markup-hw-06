@@ -632,6 +632,7 @@ margin-right: 30px;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--additional-color);
+    width: 1600px;
     border-radius: 0;
   }
   .footer-container{

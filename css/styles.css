@@ -898,6 +898,21 @@ margin-bottom: 0;
     cursor: pointer;
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.6);
 }
+.portfolio-link:hover .portfolio-text {
+    transform: translateY(0);
+    transition: transform var(--transition-duration);
+    opacity: 1;
+}
+
+.portfolio-link:focus .portfolio-text {
+    transform: translateY(0);
+    transition: transform var(--transition-duration);
+    opacity: 1;
+}
+
+
+
+
 .portfolio-content{
     line-height: 1.8;
     letter-spacing: 0.03em;
@@ -931,14 +946,5 @@ margin-bottom: 0;
     transform: translateY(100%);
     }
 
-.portfolio-link:hover .portfolio-text{
-    transform: translateY(0);
-    transition: transform var(--transition-duration);
-    opacity: 1;
-}
-.portfolio-link:focus .portfolio-text {
-    transform: translateY(0);
-    transition: transform var(--transition-duration);
-    opacity: 1;
-}
+
 

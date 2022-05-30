@@ -351,6 +351,9 @@ margin-right: 10px;
 .modal-area:focus{
     border-color: var(--accent);
 }
+.modal-area:hover {
+    border-color: var(--accent);
+}
 .modal-area{
     width: 100%;
     height: 120px;

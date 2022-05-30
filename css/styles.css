@@ -402,6 +402,12 @@ margin-right: 10px;
     display: inline-block;
     top: 16%;
     left: -1px;
+    transition-property: border-color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
+}
+.checkbox:focus+.agreement-icon{
+    border-color: var(--secondary-accent);
 }
 
 .form-button{

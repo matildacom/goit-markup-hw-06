@@ -653,7 +653,7 @@ margin-right: 30px;
     color: var(--text-color);
 }
 .address{
-margin-top: 20px;
+    margin-top: 20px;
 }
 .address-list{
     padding-left: 0;
@@ -665,7 +665,7 @@ margin-top: 20px;
     margin-bottom: 9px;
 }
 .footer-item:last-child{
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 .mail{
     font-style: normal;

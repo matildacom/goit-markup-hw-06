@@ -899,7 +899,7 @@ margin-right: 30px;
     color: var(--text-color);
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);
-    transform: translateY(100%);
+    transform: translateY(101%);
 }
 .portfolio-text {
     margin: 0;
